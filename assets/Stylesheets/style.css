@@ -1,0 +1,57 @@
+/*BODY*/
+.Site {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+/*HOMEPAGE COLUMNS*/
+
+#body-container {
+  height:100vh;
+  width: 100%;
+}
+
+#left-container {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  margin-left:0px;
+}
+
+#right-container {
+  width: 50%
+  height: 100%;
+}
+
+/*LEFT COLUMN CONTENT*/
+#logo {
+  width:90%;
+  padding-top: 150px;
+}
+
+/*RIGHT COLUMN CONTENT*/
+
+#search-text {
+  padding-top:150px;
+  padding-left: 10px;
+}
+
+#right-headers {
+  width: 80%;
+  align:center;
+}
+
+#input {
+  width:70%;
+}
+
+#search-spacer {
+  height:40px;
+  width:100%;
+}
