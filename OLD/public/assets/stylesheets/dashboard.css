@@ -1,0 +1,13 @@
+#sidebar {
+  background-color: #171219;
+  height: 120vh; }
+  #sidebar p {
+    color: #f3efe0;
+    size: 10px; }
+  #sidebar #user-info {
+    padding-left: 10px; }
+  #sidebar #user-photo {
+    width: 95%;
+    padding-top: 5px; }
+
+/*# sourceMappingURL=dashboard.css.map */

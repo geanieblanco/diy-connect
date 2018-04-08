@@ -1,0 +1,52 @@
+//COLORS
+$Black: rgba(23, 18, 25, 1);
+$Beige: rgba(243, 239, 224, 1);
+$Light-Grey: rgba(128, 128, 128, 1);
+$White: rgba(255, 255, 255, 1);
+$Dark-Grey: rgba(70, 70, 85, 1);
+
+//FONTS
+$title-font:'Nunito Sans', sans-serif;
+
+/* BODY */
+body {
+  /* background-image: url("../images/background.jpeg"); */
+  background-size: 100%;
+  background-color: $Light-Grey;
+}
+
+nav {
+  background-color: $Black;
+  height: 75px;
+  li {
+    backgound-color:$Dark-Grey;
+    color: $Light-Grey;
+    font-family: $title-font;
+    font-size: 20px;
+    /*padding-top: 20px;*/
+  }
+  a {
+    color: $Beige;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:$Light-Grey;
+  }
+
+  img {
+    width:250px;
+  }
+
+  button {
+    background-color: $Beige;
+  }
+
+  button:hover {
+    background-color: $Beige;
+  }
+
+  #tags {
+
+  }
+}

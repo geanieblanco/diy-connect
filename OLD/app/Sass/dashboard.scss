@@ -1,0 +1,25 @@
+//COLORS
+$Black: rgba(23, 18, 25, 1);
+$Beige: rgba(243, 239, 224, 1);
+$Light-Grey: rgba(128, 128, 128, 1);
+$White: rgba(255, 255, 255, 1);
+$Dark-Grey: rgba(70, 70, 85, 1);
+
+//FONTS
+$title-font:'Nunito Sans', sans-serif;
+
+#sidebar {
+  background-color: $Black;
+  height: 120vh;
+  p {
+    color: $Beige;
+    size: 10px;
+  }
+  #user-info {
+    padding-left: 10px;
+  }
+  #user-photo {
+    width: 95%;
+    padding-top: 5px;
+  }
+}
