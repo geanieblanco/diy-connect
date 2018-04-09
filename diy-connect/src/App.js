@@ -7,6 +7,7 @@ import {
 import Home from './screens/Home';
 import Map from './screens/Map';
 import Account from './screens/Account';
+import Search from './screens/Search';
 
 const HomePage = () => (
   <Home/>
@@ -18,6 +19,10 @@ const MapPage = () => (
 
 const AccountPage = ({ match }) => (
   <Account/>
+)
+
+const SearchPage = () => (
+  <Search/>
 )
 
 // const Topics = ({ match }) => (
